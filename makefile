@@ -5,6 +5,7 @@ update-packwiz:
 	@echo "Packwiz has been Updated"
 	
 refresh:
-    pw -b -d versions refresh
+	pw -b -d versions refresh
+
 update:
-    pw -b -d versions update --all
+	pw -b -d versions update --all
